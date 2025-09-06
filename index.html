@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Cast</title>
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViewCast - Stream Movies & Series</title>
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+       <section class="navbar-section">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#home">View Cast</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Movies
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#trending">Trendig</a></li>
+            <li><a class="dropdown-item" href="#action">Action</a></li>
+            <li><a class="dropdown-item" href="#comedy">Comedy</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#series">Series</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#anime">Anime</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#pricing">Plans</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#footer">Contact Us</a>
+        </li>
+      </ul>
+        <button class=" btn btn-outline-light  ms-auto sign-in">Sign In</button>
+        <a href="#register" class="btn btn-outline-danger subscribe  ms-1" type="button ">Get Started</a>
+</nav>
+    
+ 
+     </section> 
+
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        
+        <div class="container hero-content">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                 <h1 class="display-3 fw-bold mb-4">
+                        Stream Everything You Love
+                </h1>
+                <p class="lead mb-4">
+                    Discover thousands of movies, TV series, and anime. From blockbuster action films to binge-worthy series, everything you want to watch is here.
+                </p>
+                    <div class="d-flex flex-wrap gap-3 mb-4">
+    
+                        <a class="btn btn-primary btn-lg" href="#trending">
+                            <i class="bi bi-play-fill me-2"></i> Start Watching
+                        </a>
+
+                        <button class="btn btn-outline-light btn-lg" data-bs-toggle="modal" data-bs-target="#trailerModal">
+                            <i class="bi bi-info-circle me-2"></i>Learn More
+                        </button>
+                    </div>
+                    
+                
+                </div>
+                <div class="col-lg-6 ">
+                <div class="movie-poster" style="height: 400px; border-radius: 20px;">
+                    <img class="hero-image" src="images/3d-glasses-popcorn-assortment.jpg" alt="">          
+                </div>
+                    
+            </div>
+            <div class="spinner d-flex">
+            <div class="spinner-border text-primary me-2" role="status">
+                <span class="visually-hidden">Loading...</span>
+                
+            </div>
+            <p class="text-light-emphasis">loading Execlusive Content...</p>
+            </div>
+         </div>
+        </div>
+    </section>
+
+
+
+    <!-- Alerts Section -->
+     <section class="alerts">
+    <div class="container mt-4">
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <i class="bi bi-gift me-2"></i>
+            <strong>New Release!</strong> The latest blockbusters are now available to stream!
+            <button type="button" class="btn-close  " data-bs-dismiss="alert"></button>
+        </div>
+    </div>
+    </section>
+
+    <!-- Trending Now -->
+        <section id="trending" class="genre-section">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="bi bi-fire text-danger me-2"></i>Trending Now
+            </h2>
+            <div class="row g-3">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card movie-card">
+                        <div class="movie-poster">
+                            <div class="text-center p-3 ">
+                                <img src="images/SpiderMan_.jpeg" class="card-poster d-block" alt="">
+                            </div>
+                          
+                            <div class="play-overlay">
+                                <button class="btn btn-primary rounded-circle" style="width: 50px; height: 50px;">
+                                    <i class="bi bi-play-fill"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h6 class="card-title ">Spider-Man: No Way Home</h6>
+                                <div class="mt-2">
+                                    <span class="badge bg-danger">Trending</span>
+                                    <span class="badge genre-badge ms-1">Action</span>
+                                </div>
+                            <div class="rating-stars mb-2">
+                                <span class="text-warning">★★★★★</span>
+                                <span class="ms-1 text-danger rate">8.4</span>
+                            </div>
+                            <small class=" duration">2021 • 2h 28m</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card movie-card">
+                        <div class="movie-poster">
+                            <div class="text-center p-3">
+                                <div class="text-center p-3 ">
+                                        <img src="images/Dune.jpeg" class="card-poster d-block" alt="">
+                                </div>     
+                            </div>
+                            <div class="play-overlay">
+                                <button class="btn btn-primary rounded-circle" style="width: 50px; height: 50px;">
+                                    <i class="bi bi-play-fill"></i>
+                                </button>
+                               
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h6 class="card-title ">Dune</h6>
+                                <div class="mt-2">
+                                    <span class="badge bg-danger">Trending</span>
+                                    <span class="badge genre-badge ms-1">Sci-Fi</span>
+                                </div>
+                            <div class="rating-stars mb-2">
+                                <span class="text-warning">★★★★☆</span>
+                                <span class="ms-1 rate">8.0</span>
+                            </div>
+                            <small class="duration">2021 • 2h 35m</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card movie-card">
+                        <div class="movie-poster">
+                            <div class="text-center p-3">
+                                <h6 class="text-warning mb-2">TOP GUN</h6>
+                                      <div class="text-center p-3 ">
+                                
+                                <img src="images/topgun.jpeg" class="card-poster d-block" alt="">
+                                
+                              
+                            </div>>
+                           
+                            </div>
+                            <div class="play-overlay">
+                                <button class="btn btn-primary rounded-circle" style="width: 50px; height: 50px;">
+                                    <i class="bi bi-play-fill"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h6 class="card-title ">Top Gun: Maverick</h6>
+                                 <div class="mt-2">
+                                    <span class="badge bg-danger">Trending</span>
+                                    <span class="badge genre-badge ms-1">Action</span>
+                                </div>
+                            <div class="rating-stars mb-2">
+                                <span class="text-warning">★★★★★</span>
+                                <span class="ms-1 rate">8.3</span>
+                            </div>
+                            <small class="duration">2022 • 2h 11m</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card movie-card">
+                        <div class="movie-poster">
+                            <div class="text-center p-3">
+                                
+                                      <div class="text-center p-3 ">
+                                
+                                <img src="images/avatar.jpeg" class="card-poster d-block" alt="">
+                                
+                              
+                            </div>
+                               
+                            </div>
+                            <div class="play-overlay">
+                                <button class="btn btn-primary rounded-circle" style="width: 50px; height: 50px;">
+                                    <i class="bi bi-play-fill"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h6 class="card-title ">Avatar: The Way of Water</h6>
+                             <div class="mt-2">
+                                    <span class="badge bg-danger">Trending</span>
+                                    <span class="badge genre-badge ms-1">Sci-Fi</span>
+                                </div>
+                            <div class="rating-stars mb-2">
+                                <span class="text-warning">★★★★☆</span>
+                                <span class="ms-1 rate">7.6</span>
+                            </div>
+                            <small class="duration">2022 • 3h 12m</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Action Movies Carousel -->
+    <section id="action" class="genre-section">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="bi bi-lightning-charge-fill text-warning me-2"></i>Action Movies
+            </h2>
+            <div id="actionCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <div class="row g-3">
+                            <div class="col-md-4">
+                                <div class="card movie-card">
+                                    <div class="movie-poster-action">
+                                        <div class="text-center p-3">
+                                            
+                                                  <div class="text-center p-3 ">
+                                                        
+                                                        <img src="images/godfellas3(2).jpeg" class="card-poster d-block" alt="">
+                                                        
+                                                    
+                                                    </div>
+                                          
+                                        </div>
+                                        <div class="play-overlay">
+                                            <button class="btn btn-primary rounded-circle" style="width: 60px; height: 60px;">
+                                                <i class="bi bi-play-fill fs-4"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title">Goodfellas</h6>
+                                        <div class="rating-stars mb-2">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                            <span class="ms-1 rate">8.7</span>
+                                              <div class="mt-2">
+                                                <span class="badge genre-badge me-1">Crime</span>
+                                                <span class="badge genre-badge">Drama</span>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card movie-card">
+                                    <div class="movie-poster-action">
+                                        <div class="text-center p-3">
+                                           
+                                              <div class="text-center p-3 ">
+                                
+                                                        <img src="images/TheGodfatherwallpaper.jpeg" class="card-poster d-block" alt="">
+                                                        
+                                                    
+                                                    </div>
+                                            
+                                        </div>
+                                        <div class="play-overlay">
+                                            <button class="btn btn-primary rounded-circle" style="width: 60px; height: 60px;">
+                                                <i class="bi bi-play-fill fs-4"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title">The Godfather</h6>
+                                        <div class="rating-stars mb-2">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <span class="ms-1 rate">9.2</span>
+                                            <div class="mt-2">
+                                                <span class="badge genre-badge me-1">Crime</span>
+                                                <span class="badge genre-badge">Drama</span>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card movie-card">
+                                    <div class="movie-poster-action">
+                                        <div class="text-center p-3">
+                                            
+                                             <div class="text-center p-3 ">
+                                
+                                                        <img src="images/Donnie Brasco (1).jpeg" class="card-poster d-block" alt="">
+                                                        
+                                                    
+                                                    </div>
+                                          
+                                        </div>
+                                        <div class="play-overlay">
+                                            <button class="btn btn-primary rounded-circle" style="width: 60px; height: 60px;">
+                                                <i class="bi bi-play-fill fs-4"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title">Donnie Brasco</h6>
+                                        <div class="rating-stars mb-2">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                            <span class="ms-1 rate">7.7</span>
+                                              <div class="mt-2">
+                                                <span class="badge genre-badge me-1">Crime</span>
+                                                <span class="badge genre-badge">Thriller</span>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-3">
+                            <div class="col-md-4">
+                                <div class="card movie-card">
+                                    <div class="movie-poster-action">
+                                        <div class="text-center p-3">
+                                           
+                                             <div class="text-center p-3 ">
+                                
+                                                        <img src="images/john (1).jpeg" class="card-poster d-block" alt="">
+                                                        
+                                                    
+                                                    </div>
+                                          
+                                        </div>
+                                        <div class="play-overlay">
+                                            <button class="btn btn-primary rounded-circle" style="width: 60px; height: 60px;">
+                                                <i class="bi bi-play-fill fs-4"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title">John Wick</h6>
+                                        <div class="rating-stars mb-2">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                            <span class="ms-1 rate">7.4</span>
+                                              <div class="mt-2">
+                                                <span class="badge genre-badge me-1">Action</span>
+                                                <span class="badge genre-badge">Thriller</span>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card movie-card">
+                                    <div class="movie-poster-action">
+                                        <div class="text-center p-3">
+                                          
+                                              <div class="text-center p-3 ">
+                                
+                                                        <img src="images/mad.jpeg" class="card-poster d-block" alt="">
+                                                        
+                                                    
+                                                    </div>
+                                           
+                                        </div>
+                                        <div class="play-overlay">
+                                            <button class="btn btn-primary rounded-circle" style="width: 60px; height: 60px;">
+                                                <i class="bi bi-play-fill fs-4"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title">Mad Max: Fury Road</h6>
+                                        <div class="rating-stars mb-2">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <span class="ms-1 rate">8.1</span>
+                                             <div class="mt-2">
+                                                <span class="badge genre-badge me-1">Action</span>
+                                                <span class="badge genre-badge">Sci-Fi</span>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card movie-card">
+                                    <div class="movie-poster-action">
+                                        <div class="text-center p-3">
+                       
+                                              <div class="text-center p-3 ">
+                                
+                                                        <img src="images/hard (2).jpeg" class="card-poster d-block" alt="">
+                                                        
+                                                    
+                                                    </div>
+                                            
+                                        </div>
+                                        <div class="play-overlay">
+                                            <button class="btn btn-primary rounded-circle" style="width: 60px; height: 60px;">
+                                                <i class="bi bi-play-fill fs-4"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title">Die Hard</h6>
+                                        <div class="rating-stars mb-2">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                            <span class="ms-1 rate">8.2</span>
+                                            <div class="mt-2">
+                                                <span class="badge genre-badge me-1">Action</span>
+                                                <span class="badge genre-badge">Thriller</span>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#actionCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#actionCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comedy Movies -->
+    <section id="comedy" class="genre-section">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="bi bi-emoji-laughing-fill text-warning me-2"></i>Comedy Movies
+            </h2>
+            <div class="row g-3">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card movie-card">
+                        <div class="movie-poster">
+                            <div class="text-center p-3">
+                                
+                                <div class="text-center p-3 ">
+                                
+                                      <img src="images/hang (2).jpeg" class="card-poster d-block" alt="">
+                                </div>
+                               
+                            </div>
+                            <div class="play-overlay">
+                                <button class="btn btn-primary rounded-circle" style="width: 50px; height: 50px;">
+                                    <i class="bi bi-play-fill"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h6 class="card-title">The Hangover</h6>
+                            
+                            <div class="rating-stars mb-2">
+                                <span class="text-warning">★★★★☆</span>
+                                <span class="ms-1 rate">7.7</span>
+                                
+                            </div>
+                            <small class="duration">2009 • 1h 40m</small>
+                             <div class="mt-2">
+                                    <span class="badge genre-badge">Comedy</span>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card movie-card">
+                        <div class="movie-poster">
+                            <div class="text-center p-3">
+                                
+                                  <div class="text-center p-3 ">
+                                
+                                                <img src="images/badboys.jpeg" class="card-poster d-block" alt="">
+                                 </div>
+                               
+                            </div>
+                            <div class="play-overlay">
+                                <button class="btn btn-primary rounded-circle" style="width: 50px; height: 50px;">
+                                    <i class="bi bi-play-fill"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Bad Boys</h6>
+                           
+                            <div class="rating-stars mb-2">
+                                <span class="text-warning">★★★★☆</span>
+                                <span class="ms-1 rate">7.6</span>
+                            </div>
+                            <small class="duration">2007 • 1h 53m</small>
+                              <div class="mt-2">
+                                    <span class="badge genre-badge">Comedy</span>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card movie-card">
+                        <div class="movie-poster">
+                            <div class="text-center p-3">
+                               
+                                <div class="text-center p-3 ">
+                                    <img src="images/Anchorman - Kevin M Wilson (aka Ape Meets Girl)….jpeg" class="card-poster d-block" alt="">
+                               </div>
+                               
+                            </div>
+                            <div class="play-overlay">
+                                <button class="btn btn-primary rounded-circle" style="width: 50px; height: 50px;">
+                                    <i class="bi bi-play-fill"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Anchorman</h6>
+                            <div class="rating-stars mb-2">
+                                <span class="text-warning">★★★☆☆</span>
+                                <span class="ms-1 rate">7.2</span>
+                             </div>       
+                                <small class="duration">2004 • 1h 34m</small>
+                                 <div class="mt-2">
+                                    <span class="badge genre-badge">Comedy</span>
+                                </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card movie-card">
+                    <div class="movie-poster">
+                        <div class="text-center p-3">
+                            <div class="text-center p-3 ">
+                                
+                          <img src="images/step.jpeg" class="card-poster d-block" alt="">    
+                                                    
+                          </div>
+                          
+                        </div>
+                        <div class="play-overlay">
+                                <button class="btn btn-primary rounded-circle" style="width: 50px; height: 50px;">
+                                    <i class="bi bi-play-fill"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Step Brothers</h6>
+                            <div class="rating-stars mb-2">
+                                <span class="text-warning">★★★☆☆</span>
+                                <span class="ms-1 rate">6.9</span>
+                             </div>       
+                                <small class="duration">2008 • 1h 58m</small>
+                                 <div class="mt-2">
+                                    <span class="badge genre-badge">Comedy</span>
+                                </div>
+                    </div>
+                </div>
+               </div>
+        </div>
+    </section>
+
+
+
+    <!-- TV Series -->
+    <section id="series" class="genre-section">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="bi bi-tv text-info me-2"></i>Popular TV Series
+            </h2>
+            <div class="row g-3">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card movie-card">
+                        <div class="movie-poster">
+                            <div class="text-center p-3">
+                                
+                               <div class="text-center p-3 ">
+                                
+                                        <img src="images/stranger.jpeg" class="card-poster d-block" alt="">
+                              </div>
+                               
+                            </div>
+                            <div class="play-overlay">
+                                <button class="btn btn-primary rounded-circle" style="width: 60px; height: 60px;">
+                                    <i class="bi bi-play-fill fs-4"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Stranger Things</h6>
+                            <div class="rating-stars mb-2">
+                                <span class="text-warning">★★★★★</span>
+                                <span class="ms-1 rate">8.7</span>
+                            </div>
+                            <small class="duration">4 Seasons • 2016-2022</small>
+                             <div class="mt-2">
+                                    <span class="badge bg-info">Series</span>
+                                    <span class="badge genre-badge ms-1">Sci-Fi</span>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card movie-card">
+                        <div class="movie-poster">
+                            <div class="text-center p-3">
+                                
+                                <div class="text-center p-3 ">
+                                       <img src="images/sons.jpeg" class="card-poster d-block" alt="">
+                                                         
+                                </div>
+                            </div>
+                            <div class="play-overlay">
+                                <button class="btn btn-primary rounded-circle" style="width: 60px; height: 60px;">
+                                    <i class="bi bi-play-fill fs-4"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Sons Of Anarchy</h6>
+                            <div class="rating-stars mb-2">
+                                <span class="text-warning">★★★★☆</span>
+                                <span class="ms-1 rate">8.7</span>
+                            </div>
+                            <small class="duration">7 Seasons • 2008-2014</small>
+                                <div class="mt-2">
+                                    <span class="badge bg-info">Series</span>
+                                    <span class="badge genre-badge ms-1">Action</span>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card movie-card">
+                        <div class="movie-poster">
+                            <div class="text-center p-3">
+                              
+                               <div class="text-center p-3 ">
+                                       <img src="images/got (1).jpeg" class="card-poster d-block" alt="">
+                                                         
+                                </div>
+                               
+                            </div>
+                            <div class="play-overlay">
+                                <button class="btn btn-primary rounded-circle" style="width: 60px; height: 60px;">
+                                    <i class="bi bi-play-fill fs-4"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Game of Thrones</h6>
+                            <div class="rating-stars mb-2">
+                                <span class="text-warning">★★★★☆</span>
+                                <span class="ms-1 rate">9.2</span>
+                            </div>
+                            <small class="duration">8 Seasons • 2011-2019</small>
+                             <div class="mt-2">
+                                    <span class="badge bg-info">Series</span>
+                                    <span class="badge genre-badge ms-1">Fantasy</span>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Anime Section -->
+    <section id="anime" class="genre-section">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="bi bi-heart-eyes text-success me-2"></i>Popular Anime
+            </h2>
+            <div class="row g-3">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card movie-card">
+                        <div class="movie-poster">
+                            <div class="text-center p-3">
+                                
+                               <div class="text-center p-3 ">
+                                       <img src="images/attack (2).jpeg" class="card-poster d-block" alt="">                      
+                                </div>
+                                
+                            </div>
+                            <div class="play-overlay">
+                                <button class="btn btn-primary rounded-circle" style="width: 60px; height: 60px;">
+                                    <i class="bi bi-play-fill fs-4"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Attack on Titan</h6>
+                            <div class="rating-stars mb-2">
+                                <span class="text-warning">★★★★★</span>
+                                <span class="ms-1 rate">9.0</span>
+                            </div>
+                            <small class="duration">4 Seasons • 2013-2023</small>
+                            <div class="mt-2">
+                                    <span class="badge bg-success">Anime</span>
+                                    <span class="badge genre-badge ms-1">Action</span>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card movie-card">
+                        <div class="movie-poster">
+                            <div class="text-center p-3">
+                                
+                                <div class="text-center p-3 ">
+                                       <img src="images/demon.jpeg" class="card-poster d-block" alt="">
+                                                         
+                                </div>
+                                
+                            </div>
+                            <div class="play-overlay">
+                                <button class="btn btn-primary rounded-circle" style="width: 60px; height: 60px;">
+                                    <i class="bi bi-play-fill fs-4"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Demon Slayer</h6>
+                            <div class="rating-stars mb-2">
+                                <span class="text-warning">★★★★★</span>
+                                <span class="ms-1 rate">8.7</span>
+                            </div>
+                            <small class="duration">3 Seasons • 2019-2023</small>
+                            <div class="mt-2">
+                                    <span class="badge bg-success">Anime</span>
+                                    <span class="badge genre-badge ms-1">Action</span>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card movie-card">
+                        <div class="movie-poster">
+                            <div class="text-center p-3">
+                                
+                               <div class="text-center p-3 ">
+                                       <img src="images/Jujutsu Kaisen Gojo Satoru Fanart Wallpaper.jpeg" class="card-poster d-block" alt="">
+                                                         
+                                </div>
+
+                                     <div class="play-overlay">
+                                <button class="btn btn-primary rounded-circle" style="width: 60px; height: 60px;">
+                                    <i class="bi bi-play-fill fs-4"></i>
+                                </button>
+                            </div>
+                                
+                            </div>
+                           
+                        </div>
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Jujustu Kaisen</h6>
+                            <div class="rating-stars mb-2">
+                                <span class="text-warning">★★★★★</span>
+                                <span class="ms-1 rate">9.0</span>
+                            </div>
+                            <small class="duration">2 Seasons • 2021-2023</small>
+                             <div class="mt-2">
+                                    <span class="badge bg-success">Anime</span>
+                                    <span class="badge genre-badge ms-1">Action</span>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section section-padding">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 mb-4">
+                    <h3 class="display-4 fw-bold text-primary">10,000+</h3>
+                    <p class="lead">Movies & Shows</p>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar bg-primary" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h3 class="display-4 fw-bold text-success">5M+</h3>
+                    <p class="lead">Happy Subscribers</p>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar bg-success" style="width: 88%"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h3 class="display-4 fw-bold text-warning">99.9%</h3>
+                    <p class="lead">Uptime Guaranteed</p>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar bg-warning" style="width: 99%"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h3 class="display-4 fw-bold text-info">4K</h3>
+                    <p class="lead">Ultra HD Quality</p>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar bg-info" style="width: 90%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Browse by Genre - Button Groups -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Browse by Genre</h2>
+           
+                <div class="btn-group btn-group-lg d-none d-md-inline-flex" role="group">
+                    <a type="button"href="#home" class="btn btn-outline-primary">All Geners</a>
+                    <a type="button"href="#action" class="btn btn-outline-primary">Action</a>
+                    <a type="button"href="#comedy" class="btn btn-outline-primary">Comedy</a>
+                    <a type="button"href="#series" class="btn btn-outline-primary">Drama</a>
+                    <a type="button"href="#anime" class="btn btn-outline-primary">Anime</a>
+                </div>
+            </div>
+            
+            <!-- Pagination -->
+            <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#anime">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#home">1</a></li>
+                <li class="page-item"><a class="page-link" href="#action">2</a></li>
+                <li class="page-item"><a class="page-link" href="#series">3</a></li>
+                <li class="page-item"><a class="page-link" href="#comedy">Next</a></li>
+            </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Top Rated Movies Table -->
+    <section class="section-padding bg-dark">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Top Rated Movies This Week</h2>
+            <div class="table-responsive">
+                <table class="table table-dark table-striped table-hover">
+                    <thead class="table-primary">
+                        <tr>
+                            <th>Rank</th>
+                            <th>Movie</th>
+                            <th>Genre</th>
+                            <th>Year</th>
+                            <th>Rating</th>
+                            <th>Duration</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="badge bg-warning fs-6">1</span></td>
+                            <td>The Shawshank Redemption</td>
+                            <td>Drama</td>
+                            <td>1994</td>
+                            <td><span class="text-warning">★ 9.3</span></td>
+                            <td>2h 22m</td>
+                            <td><span class="badge bg-success">Available</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="badge bg-warning fs-6">2</span></td>
+                            <td>The Godfather</td>
+                            <td>Crime, Drama</td>
+                            <td>1972</td>
+                            <td><span class="text-warning">★ 9.2</span></td>
+                            <td>2h 55m</td>
+                            <td><span class="badge bg-success">Available</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="badge bg-warning fs-6">3</span></td>
+                            <td>The Dark Knight</td>
+                            <td>Action, Crime</td>
+                            <td>2008</td>
+                            <td><span class="text-warning">★ 9.0</span></td>
+                            <td>2h 32m</td>
+                            <td><span class="badge bg-success">Available</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="badge bg-secondary fs-6">4</span></td>
+                            <td>Pulp Fiction</td>
+                            <td>Crime, Drama</td>
+                            <td>1994</td>
+                            <td><span class="text-warning">★ 8.9</span></td>
+                            <td>2h 34m</td>
+                            <td><span class="badge bg-warning">Coming Soon</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="badge bg-secondary fs-6">5</span></td>
+                            <td>Schindler's List</td>
+                            <td>Biography, Drama</td>
+                            <td>1993</td>
+                            <td><span class="text-warning">★ 8.9</span></td>
+                            <td>3h 15m</td>
+                            <td><span class="badge bg-success">Available</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Accordion -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item bg-dark border-secondary">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button bg-dark text-light border-0" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    What devices can I use to watch ViewCast?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body bg-dark text-light">
+                                    ViewCast is available on all your favorite devices including smart TVs, smartphones, tablets, laptops, and gaming consoles. You can watch anywhere, anytime.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-dark border-secondary">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed bg-dark text-light border-0" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    Can I download content for offline viewing?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body bg-dark text-light">
+                                    Yes! With our Premium and Ultimate plans, you can download movies and shows to watch offline on your mobile devices.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-dark border-secondary">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed bg-dark text-light border-0" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    How many screens can I watch on simultaneously?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body bg-dark text-light">
+                                    This depends on your plan: Basic (1 screen), Premium (2 screens), Ultimate (4 screens). You can upgrade anytime.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-dark border-secondary">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed bg-dark text-light border-0" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    Is there a free trial available?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body bg-dark text-light">
+                                    Yes! We offer a 7-day free
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Subscription Plans -->
+    <section id="pricing" class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Choose Your Plan</h2>
+                <p class="lead text-muted">Flexible pricing for every viewer</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card pricing-card h-100">
+                        <div class="card-body text-center p-4">
+                            <h5 class="card-title text-primary">Basic</h5>
+                            <div class="display-6 fw-bold text-primary mb-3">$8.99<small class="fs-6 text-muted">/month</small></div>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>1 Screen</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>HD Quality</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>All Movies & Shows</li>
+                                <li class="mb-2"><i class="bi bi-x text-danger me-2"></i>Downloads</li>
+                                <li class="mb-2"><i class="bi bi-x text-danger me-2"></i>4K Quality</li>
+                            </ul>
+                            <button class="btn btn-outline-primary btn-lg">Start Free Trial</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card pricing-card featured-plan h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="badge bg-primary mb-3">Most Popular</div>
+                            <h5 class="card-title text-primary">Premium</h5>
+                            <div class="display-6 fw-bold text-primary mb-3">$13.99<small class="fs-6 text-muted">/month</small></div>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>2 Screens</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>4K Quality</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Downloads</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Early Access</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>No Ads</li>
+                            </ul>
+                            <button class="btn btn-primary btn-lg">Start Free Trial</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card pricing-card h-100">
+                        <div class="card-body text-center p-4">
+                            <h5 class="card-title text-primary">Ultimate</h5>
+                            <div class="display-6 fw-bold text-primary mb-3">$17.99<small class="fs-6 text-muted">/month</small></div>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>4 Screens</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>4K + HDR</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Unlimited Downloads</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Exclusive Content</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Priority Support</li>
+                            </ul>
+                            <button class="btn btn-outline-primary btn-lg">Start Free Trial</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+   <section id="register" class="section-padding bg-dark">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Create Your Account</h2>
+                    <p class="lead text-muted">Join millions of viewers and start streaming today</p>
+                </div>
+                <div class="card bg-secondary border-0">
+                    <div class="card-body p-5">
+                        <form class="needs-validation" novalidate>
+                            <div class="row g-3">
+                                <div class="col-12">
+                                    <label for="email" class="form-label text-light">Email Address</label>
+                                    <input type="email" class="form-control bg-dark text-light border-secondary" id="email" required>
+                                    <div class="invalid-feedback">Please provide a valid email address.</div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="password" class="form-label text-light">Password</label>
+                                    <input type="password" class="form-control bg-dark text-light border-secondary" id="password" required>
+                                    <div class="invalid-feedback">Please choose a secure password.</div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="terms" required>
+                                        <label class="form-check-label text-light" for="terms">
+                                            I agree to the <a href="#" class="text-primary">Terms of Service</a> and <a href="#" class="text-primary">Privacy Policy</a>
+                                        </label>
+                                        <div class="invalid-feedback">You must agree to the terms.</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn btn-primary btn-lg px-5">
+                                        <i class="bi bi-person-plus me-2"></i>Create Account
+                                    </button>
+                                    <p class="mt-3 text-muted">
+                                        Already have an account? 
+                                        <button class="btn btn-link text-primary p-0" data-bs-toggle="modal" data-bs-target="#loginModal">Sign In</button>
+                                    </p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="mb-4">
+                        <a class="navbar-brand text-primary fs-2" href="#home">
+                            <i class="bi bi-play-circle-fill me-2"></i>ViewCast
+                        </a>
+                    </div>
+                    <p class="mb-4">Your premier destination for streaming movies, TV series, and anime. Enjoy unlimited entertainment with the highest quality viewing experience.</p>
+                    <div class="list-group list-group-flush bg-transparent">
+                        <div class="list-group-item bg-transparent border-0 px-0 d-flex align-items-center">
+                            <i class="bi bi-geo-alt-fill text-primary me-3 fs-5"></i>
+                            <div>
+                                <h6 class="mb-0 text-light">Address</h6>
+                                <small class="text-light-emphasis">Alexandria,Egypt</small>
+                            </div>
+                        </div>
+                        <div class="list-group-item bg-transparent border-0 px-0 d-flex align-items-center">
+                            <i class="bi bi-telephone-fill text-primary me-3 fs-5"></i>
+                            <div>
+                                <h6 class="mb-0 text-light">Phone</h6>
+                                <small class="text-light-emphasis">01020928545</small>
+                            </div>
+                        </div>
+                        <div class="list-group-item bg-transparent border-0 px-0 d-flex align-items-center">
+                            <i class="bi bi-envelope-fill text-primary me-3 fs-5"></i>
+                            <div>
+                                <h6 class="mb-0 text-light">Email</h6>
+                                <small class="text-light-emphasis">alsaidm508@gmail.com</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4">
+                    <h6 class="text-light mb-3">Browse</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#action" class="text-decoration-none text-light-emphasis">Action Movies</a></li>
+                        <li class="mb-2"><a href="#comedy" class="text-decoration-none text-light-emphasis">Comedy</a></li>
+                        <li class="mb-2"><a href="#trending" class="text-decoration-none text-light-emphasis">Trending</a></li>
+                        <li class="mb-2"><a href="#series" class="text-decoration-none text-light-emphasis">TV Series</a></li>
+                        <li class="mb-2"><a href="#anime" class="text-decoration-none text-light-emphasis">Anime</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4">
+                    <h6 class="text-light mb-3">Account</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#register" class="text-decoration-none text-light-emphasis">Sign Up</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-light-emphasis" data-bs-toggle="modal" data-bs-target="#loginModal">Sign In</a></li>
+                        <li class="mb-2"><a href="#pricing" class="text-decoration-none text-light-emphasis">Subscription Plans</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-light-emphasis">My Watchlist</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-light-emphasis">Account Settings</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4">
+                    <h6 class="text-light mb-3">Support</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-light-emphasis">Contact Us</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-light-emphasis">Device Support</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-light-emphasis">System Status</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-light-emphasis">Report Issue</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-light-emphasis">Help Center</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 mb-4">
+                    <h6 class="text-light mb-3">Connect</h6>
+                    <div class="d-flex flex-column gap-3">
+                        <a href="#" class="text-decoration-none text-light-emphasis d-flex align-items-center">
+                            <i class="bi bi-facebook text-primary me-2 fs-5"></i>Facebook
+                        </a>
+                        <a href="#" class="text-decoration-none text-light-emphasis d-flex align-items-center">
+                            <i class="bi bi-twitter text-info me-2 fs-5"></i>Twitter
+                        </a>
+                        <a href="#" class="text-decoration-none text-light-emphasis d-flex align-items-center">
+                            <i class="bi bi-instagram text-danger me-2 fs-5"></i>Instagram
+                        </a>
+                        <a href="#" class="text-decoration-none text-light-emphasis d-flex align-items-center">
+                            <i class="bi bi-youtube text-primary me-2 fs-5"></i>YouTube
+                        </a>
+                     
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 border-secondary">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 ViewCast By Mohamed El Sayed. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-light-emphasis text-decoration-none me-3">Privacy Policy</a>
+                    <a href="#" class="text-light-emphasis text-decoration-none me-3">Terms of Service</a>
+                    <a href="#" class="text-light-emphasis text-decoration-none">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    
+    <!-- Trailer Modal -->
+    <div class="modal fade" id="trailerModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content bg-dark text-light border-secondary">
+                <div class="modal-header border-secondary">
+                    <h5 class="modal-title">Welcome to ViewCast</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="mb-4">
+                        <i class="bi bi-play-circle text-primary" style="font-size: 5rem;"></i>
+                    </div>
+                    <h4 class="mb-3">Stream Everything You Love</h4>
+                    <p class="lead mb-4">
+                        Experience unlimited entertainment with our vast library of movies, TV shows, and anime. 
+                        Available in stunning 4K quality across all your devices.
+                    </p>
+                    <ul class="list-unstyled text-start">
+                        <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Over 10,000 titles available</li>
+                        <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>New content added weekly</li>
+                        <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Watch on any device</li>
+                        <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Cancel anytime</li>
+                    </ul>
+                </div>
+                <div class="modal-footer border-secondary">
+                    <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Maybe Later</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" data-bs-target="#register">Start Free Trial</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+      <div id="Notification" class="toast show visually-hidden" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+        <strong class="me-auto">View Cast</strong>
+        <small class="text-muted">Just now</small>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+        Notifications are now enabled for this website!
+    </div>
+    </div>  
+
+
+     <script src="JavaScript/bootstrap.bundle.min.js"></script>
+        
+     <script src="JavaScript/script.js"></script>
+</body>
+</html>
+
+    
+  
+        
+   
+
+        
+
